@@ -22,23 +22,6 @@
   <a href="#how-can-i-help">Help</a>
 </p>
 
-## About
-The **TradingView Webhook Bot** ⚙️ listens to [TradingView](https://tradingview.com) alerts via [webhooks](https://www.tradingview.com/support/solutions/43000529348-i-want-to-know-more-about-webhooks/) using [flask](https://flask.palletsprojects.com/en/1.1.x/).
-All alerts can be instantly sent to Telegram, Discord, Twitter and/or Email.
-
-> 📊 If you are looking for an exchange to trade on, I can recommend **Bybit**.
-> **[Sign up now](https://partner.bybit.com/b/20882)** and receive up to **$30,000** in Deposit Rewards!
-
-## Features
-- Telegram Support using the [Python Telegram](https://github.com/python-telegram-bot/python-telegram-bot) libary.
-- Discord Support using [webhooks](https://support.discord.com/hc/de/articles/228383668-Webhooks-verwenden).
-- Slack Support using [webhooks](https://api.slack.com/messaging/webhooks).
-- Twitter Support using the [tweepy](https://github.com/tweepy/tweepy) libary.
-- Email Support using [smtplib](https://docs.python.org/3/library/smtplib.html).
-- Alert channels can be enabled or disabled in [`config.py`](https://github.com/fabston/TradingView-Webhook-Bot/blob/master/config.py).
-- Dynamically send alerts to different Telegram and/or Discord channels.
-- TradingView `{{close}}`, `{{exchange}}` etc. variables support. Read more [here](https://www.tradingview.com/blog/en/introducing-variables-in-alerts-14880/).
-
 ## Installation
 > ⚠️ Best to run the bot on a VPS. I can recommend <a href="https://hetzner.cloud/?ref=tQ1NdT8zbfNY" title="Get €20 in cloud credits">Hetzner</a>'s CX11 VPS for 3.79€/month. [Sign up](https://hetzner.cloud/?ref=tQ1NdT8zbfNY) now and receive **€20 free** credits.
 1. Clone this repository `git clone https://github.com/fabston/TradingView-Webhook-Bot.git`
